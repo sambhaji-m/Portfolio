@@ -1004,7 +1004,7 @@ footer p {
 
 /* header section */
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:400px){
     .header{
         height: 45px;
     }
@@ -1124,6 +1124,14 @@ footer p {
         }
 
         /* skills */
+
+
+        .container1 {
+
+            padding-left: 20px;
+            padding-right: 20px;
+        
+        }
         .skills-list div{
             width: 100%;
         }
@@ -1135,7 +1143,14 @@ footer p {
             list-style: none;
         }
 
+        .container2 .education .container {
+            padding: 8px;
+          }
+
         /* project */
+        .container3 .container {
+            padding: 50px;
+          }
 
         .main-text h2{
             font-size: 35px;
@@ -1151,6 +1166,16 @@ footer p {
             margin-bottom: 25px;
         }
 
+        .project-list div hr {
+            color: black;
+            margin-top: 78px;
+            margin-bottom: 25px;
+            border-top-width: 3px;
+            border-top-style: solid;
+            margin-left: -17px;
+            width: 115%;
+          }
+
         #next-project{
             margin-top: 70px;
         }
@@ -1163,12 +1188,13 @@ footer p {
             text-align: center;
         }
         .social-icon{
-            margin-left: 130px;
+            margin-left: 80px;
             margin-top: 15px; 
         
         }
         .btn2 {
-           margin-left: 90px;
+           margin-left: 50px;
+           
            
         }
 
@@ -1176,7 +1202,7 @@ footer p {
         /* footer */
 
         footer p { 
-            font-size: 20px;
+            font-size: 15px;
         }
 
 
