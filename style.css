@@ -1009,6 +1009,7 @@ footer p {
         height: 45px;
     }
 
+
     .header .logo{
         font-size: large;
         text-align: start;
@@ -1058,6 +1059,7 @@ footer p {
         width: 100%;
         line-height: 1.5;
         background-image: none;
+        margin-bottom: 40px;
         
        }
        .home-content{
@@ -1123,10 +1125,17 @@ footer p {
 
         }
 
+        /* education */
+
+        .education .container{
+            padding: 10px;
+        }
+
         /* skills */
 
 
         .container1 {
+            margin-left: 0px;
 
             padding-left: 20px;
             padding-right: 20px;
@@ -1193,7 +1202,7 @@ footer p {
         
         }
         .btn2 {
-           margin-left: 50px;
+           margin-left: 35px;
            
            
         }
