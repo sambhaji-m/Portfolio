@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 
 <head>
@@ -72,7 +72,7 @@
                 that push the boundaries of what's possible. also committed to ongoing learning and innovation in tech
                 trends.</p>
 
-            <a href="Profile.html" target="_main" class="btn-box"> More About Me</a>
+            <a href="Profile.html"  class="btn-box"> More About Me</a>
         </div>
     </section>
 
@@ -315,6 +315,50 @@
 
                             <div class="project-list">
                                 <div>
+                                    <h1 style="color: #00eeff">Vehicle Tracking System</h1>
+                                    <span>
+                                        <hr>
+                                    </span>
+                                    <p>
+                                        The Vehicle Tracking System (VTS) project offers real-time monitoring and management 
+                                        of vehicles, optimizing fleet operations through GPS technology and advanced communication 
+                                        protocols. It enhances route planning, reduces fuel consumption, and improves safety, catering 
+                                        to the diverse needs of fleet operators, transportation companies, and individuals seeking
+                                         efficient vehicle tracking solutions.
+                                    </p>
+
+                                </div>
+
+                                <div>
+                                    <h1 style="color: #00eeff">Grocery store management</h1>
+                                    <span>
+                                        <hr>
+                                    </span>
+                                    <p>
+                                        Grocery store management entails overseeing inventory, supplier relations, and staff while prioritizing
+                                         exceptional customer service. Effective merchandising, sales strategies, and financial management are essential 
+                                         for profitability. Compliance with safety standards and technological integration are crucial, alongside community
+                                          engagement efforts to foster loyalty and goodwill.
+
+                                    </p>
+
+                                </div>
+                                <div>
+                                    <h1 style="color: #00eeff">Enquiry Management</h1>
+                                    <span>
+                                        <hr>
+                                    </span>
+                                    <p>
+                                        The "Inquiry Management System" is a Django-based web app featuring registration and login forms for secure access. 
+                                        Users can create, view, update, and delete inquiries, while administrators oversee operations. It offers filtering for 
+                                        streamlined search. This system optimizes inquiry tracking and management, enhancing organizational efficiency.
+                                    </p>
+
+                                </div>
+                            </div>
+
+                            <div class="project-list">
+                                <div>
                                     <h1 style="color: #00eeff">Smart Voice Assistant</h1>
                                     <span>
                                         <hr>
@@ -367,6 +411,7 @@
 
                                 </div>
                             </div>
+
 
 
                             <div class="project-list" id="next-project">
@@ -429,8 +474,7 @@
 
     <!-- contact form -->
 
-    <!-- attach main.js file -->
-    <script src="https://smtpjs.com/v3/smtp.js"> </script>
+
     <section>
         <div id="contact">
             <div class="contact-form">
@@ -446,23 +490,16 @@
                                     class='bx bxl-linkedin-square'></i> </a>
                             <a href="https://github.com/charlie-sam" target="_main"><i class='bx bxl-github'></i> </a>
                         </div>
-                        <a href="/Sambhaji_Resume.pdf" download class="btn">Download CV</a>
+                        <a href="Sambhaji_Resume.pdf" download class="btn">Download CV</a>
                     </div>
                     <div class="contact-right">
-                        <!-- <form name="submit-to-google-sheet"> -->
-                        <form onsubmit="sendMail(); reset(); return false;">
+                        <form name="submit-to-google-sheet">
                 
-                            <!-- <input type="text" name="Name" placeholder="Your Name" required> -->
-                            <label for="fname"></label>
-                            <input type="text" id="fname" name="Name" placeholder="Your Name" required>
+                            <input type="text" name="Name" placeholder="Your Name" required>
 
-                            <!-- <input type="email" name="Email" placeholder="Your Email" required> -->
-                            <label for="email"></label>
-                            <input type="email" id="email" name="Email" placeholder="Your Email" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
 
-                            <!-- <textarea name="Message" rows="6" placeholder="Your Message"></textarea> -->
-                            <label for="subject"></label>
-                            <textarea id="subject" name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
 
                             <button type="submit" value="Submit" class="btn2">Submit</button>
                         </form>
@@ -480,7 +517,7 @@
         <!-- script for google sheet -->
 
 
-        <!-- <script>
+        <script>
             const scriptURL = 'https://script.google.com/macros/s/AKfycbzerDD7RTINLNIYooOr8r9VUYqRHlfFW4bNiUH7U_AEBM4lM_jPpu1yx8UArQmkX0Uj/exec'
             const form = document.forms['submit-to-google-sheet']
             const msg = document.getElementById("msg")
@@ -498,39 +535,9 @@
                     })
                     .catch(error => console.error('Error!', error.message))
             })
-        </script> -->
-
-
-
-        <!-- script for send mail -->
-
-
-
-        <script>
-            function sendMail(){
-                const fname = document.getElementById("fname");
-                const email = document.getElementById("email");
-                const subject = document.getElementById("subject");
-
-                let ebody = `
-                <b> First name: </b> ${fname.value}
-                <br/>
-                <b> Email: </b> ${email.value}
-                <br/>
-                <b> Description: </b> ${subject.value}
-                `
-                Email.send({
-                    SecureToken : "c0d48d29-f118-42fc-ad53-da83adf991a6",
-                    To : 'murdaresambhaji4@gmail.com',
-                    From : "murdaresambhaji4@gmail.com",
-                    Subject : "Enquiry",
-                    Body : ebody
-                }).then(
-                message => alert(message)
-                );
-            }
-            
         </script>
+
+
 
 
 

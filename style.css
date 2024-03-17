@@ -79,7 +79,7 @@ body {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(/images/img3.jpeg) no-repeat;
+    background: url(images/img3.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -1182,8 +1182,6 @@ footer p {
 
 
         /* responsive profile.html */
-
-    
 
 
 
